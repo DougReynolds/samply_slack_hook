@@ -1,0 +1,18 @@
+{
+  "name": "samply_slack_hook",
+  "version": "1.0.0",
+  "description": "Forwards incoming webhook request from Samply to Slack incoming webhook app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Douglas Reynolds",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/webhook": "^6.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
