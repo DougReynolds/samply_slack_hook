@@ -52,7 +52,7 @@ Head over to one of your projects and create a comment or other action you have 
 Check your configured Slack app channel for the incoming message.
 
 ## License
-[MIT](https://www.mit.edu/~amini/LICENSE.md)
+[MIT](./LICENSE)
 
 Dependencies for this code include express, @slack/webhook, body-parser: [MIT](https://www.mit.edu/~amini/LICENSE.md)
 
