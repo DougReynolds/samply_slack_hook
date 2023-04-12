@@ -1,3 +1,5 @@
+<img src="images/s_s_logo.png"  width="300">
+
 # Samply_Slack_Hook
 Forwards incoming webhook request from Samply to Slack incoming webhook app
 
@@ -11,6 +13,8 @@ This project uses the following modules:
 [dotenv](https://www.npmjs.com/package/dotenv)
 
 [express](https://www.npmjs.com/package/express)
+
+[cors](https://www.npmjs.com/package/cors)
 
 **Install dependencies:**
 
@@ -54,6 +58,6 @@ Check your configured Slack app channel for the incoming message.
 ## License
 [MIT](./LICENSE)
 
-Dependencies for this code include express, @slack/webhook, body-parser: [MIT](https://www.mit.edu/~amini/LICENSE.md)
+Dependencies for this code include express, @slack/webhook, body-parser, cors: [MIT](https://www.mit.edu/~amini/LICENSE.md)
 
 dotenv: [BSD-2-Clause](https://opensource.org/license/bsd-2-clause/)
